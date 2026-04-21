@@ -24,7 +24,7 @@ const Form = () => {
                 removeItem = {removeItem}
                 />
                 ))}
-            <button onClick={handleAdd}>Add Fields</button>
+            <button className="add" onClick={handleAdd}>Add Fields</button>
         </div>
     );
 };

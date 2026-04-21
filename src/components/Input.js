@@ -5,7 +5,7 @@ const Input = ({index,removeItem}) => {
     return (
         <div>
             <input type="text" />
-            <button onClick={() => removeItem(index)}>Remove</button>
+            <button className="delete" onClick={() => removeItem(index)}>Remove</button>
         </div>
     );
 };
