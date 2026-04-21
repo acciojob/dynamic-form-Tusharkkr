@@ -17,7 +17,7 @@ const Form = () => {
 
     return (
         <div>
-            {arr.length==0 && <p>No field in the form</p>}
+            {arr.length==0 && <p>No fields in the form</p>}
             {arr.map((value,index)=>(
                 <Input
                 index = {index}
